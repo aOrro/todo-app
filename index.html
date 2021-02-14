@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="app">
+    <form class="create-todo">
+      <button class="add-todo btn">+</button>
+      <input type="text" placeholder="Create a new To-Do..." class="new-todo-text" />
+      <label for="priority">Priority:</label>
+      <select id="priority" name="priority">
+        <option value="1">High</option>
+        <option value="2">Medium</option>
+        <option value="3">Low</option>
+      </select>
+    </form>
+    <form class="sorting-by">
+      <span>Sort list by:</span><br>
+      <label for="date">Most recent</label>
+      <input type="radio" id="date" name="sorting" value="date">
+      <label for="need">Priority</label>
+      <input type="radio" id="need" name="sorting" value="need">
+      <label for="completed">Completed</label>
+      <input type="radio" id="completed" name="sorting" value="completed">
+    </form>
+    <ul class="todo-list"></ul>
+  </div>
+  <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
