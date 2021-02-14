@@ -1,0 +1,64 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-todo {
+  text-align: center;
+}
+
+.add-todo {
+  width: 30px;
+  height: 30px;
+}
+
+.new-todo-text {
+  height: 24px;
+  margin: 10px 5px 20px 0;
+}
+
+select {
+  height: 30px;
+}
+
+.todo-item {
+  text-align: center;
+  list-style: none;
+  margin: 5px;
+  display: flex;
+}
+
+.priority-div {
+  font-weight: 600;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3px;
+}
+
+.todo-text {
+  height: 24px;
+  text-align: center;
+}
+
+.todo-completed {
+  height: 30px;
+}
+
+.delete-todo {
+  height: 30px;
+}
+
+.crossed {
+  text-decoration: line-through;
+  background-color: #f1f1f1;
+}
+
+.sorting-by {
+  text-align: center;
+}
